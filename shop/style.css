@@ -1,0 +1,440 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 1349px;
+	margin: 0 auto;
+}
+
+.menu {
+	background-color: #222;
+	height: 75px;
+	display: flex;
+	align-items: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+.logo {
+	padding-left: 250px;
+}
+
+.search {
+	padding-left: 41px;
+	padding-right: 576px;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown:hover .mega_box {
+	display: block;
+}
+
+.mega_box {
+	display: none;
+	position: absolute;
+	width: 230px;
+	height: 764px;
+	border: none;
+	background-color: #fff;
+	font-size: 14px;
+	left: 0;
+}
+
+.list-item {
+	padding-top: 12px;
+	padding-left: 55px;
+}
+
+.link-item {
+	text-decoration: none;
+	color: #6F6E6E;
+}
+
+.link-item:hover {
+	color: #202022;
+}
+
+.heading-item {
+	padding-top: 22px;
+	padding-left: 33px;
+}
+
+.heading-link {
+	text-decoration: none;
+	color: #F16D7F;
+}
+
+.heading-link:hover {
+	color: #ff3953; 
+}
+
+ul {
+	list-style-type: none;
+}
+
+.menu-item {
+	padding-top: 37px;
+	padding-left: 34px;
+	color: #222;
+}
+
+.account, .cart {
+	padding-left: 34px;
+}
+
+.background_color {
+	background-color: #F1E4E6;
+}
+
+.background {
+	background-image: url(images/bg-man.png);
+	background-repeat: no-repeat;
+	height: 764px;
+}
+
+.background_text {
+	padding-top: 250px;
+	padding-left: 845px;
+	height: 100px;
+}
+
+.background_line {
+	border-left: 12px solid #F16D7F;
+}
+
+.bg_text_1 {
+	margin-left: 45px;
+	width: 377px;
+	font-weight: 900;
+	font-size: 48px;
+	line-height: 48px;
+	color: #222222;
+}
+
+.bg_text_2 {
+	margin-left: 45px;
+	width: 387px;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 42px;
+	color: #222222;
+}
+
+
+.content, .accesories-box, .products, .button, .footer, .footer-items, .lady-box {
+	display: flex;
+	justify-content: center;
+}
+
+.content {
+	padding-top: 65px;
+	align-items: center;
+	flex-direction: row;
+}
+
+.women-content, .kids-content, .accesories-content {
+	position: relative;
+}
+
+.women-text, .men-text, .kids-text, .accesories-text, .products, .footer-paragraph, q {
+	text-align: center;
+}
+
+.women-text {
+	position: absolute;
+	top: 105px;
+	left: 105px;
+}
+
+.men-content {
+	position: relative;
+	margin-left: 54px;
+	margin-right: 54px;
+}
+
+.men-text, .kids-text {
+	position: absolute;
+	top: 105px;
+	left: 125px;
+}
+
+.accesories-box {
+	margin-top: 30px;
+}
+
+.accesories-text {
+	position: absolute;
+	top: 65px;
+	left: 490px;
+	display: block;
+}
+
+.products {
+	margin-top: 96px;
+	margin-bottom: 95px;
+	align-items: center;
+	flex-direction: column;
+}
+
+h3{
+	color: #222;
+	font-weight: 400;
+	margin-bottom: 6px;
+}
+
+.shop-for-items {
+	font-weight: 400;
+	font-size: 14px;
+	color: #9F9F9F;
+	margin-bottom: 48px;
+}
+
+.products-box, .products-box2 {
+	display: flex;
+}
+
+.products-box2 {
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+.items {
+	height: 600px;
+	background: #F8F8F8;
+	margin-right: 30px;
+	position: relative;
+}
+
+.items-img {
+	margin-bottom: 25px;
+}
+
+.items:hover .items-img {
+	filter: brightness(50%);
+}
+
+.items:hover .add-box {
+	display: flex;
+}
+
+.add-box {
+	position: absolute;
+	top: 188px;
+	display: none;
+	justify-content: center;
+	width: 100%;
+}
+
+.add {
+	display: flex;
+	border: 1px solid #fff;
+	padding: 13px;
+	text-decoration: none;
+	align-items: center;
+}
+
+.add:hover {
+	box-shadow: 0 0 10px #fff;
+}
+
+.cart {
+	margin-right: 11px;
+}
+
+.add-text {
+	font-weight: 400;
+	font-size: 14px;
+	color: #fff;
+}
+
+.ellery-h {
+	color: #222;
+	font-weight: 400;
+	margin-bottom: 12px;
+	text-align: left;
+	padding-left: 16px;
+}
+
+.ellery-paragraph {
+	color:#9F9F9F;
+	font-weight: 300;
+	font-size: 14px;
+	width: 236px;
+	text-align: left;
+	padding-left: 16px;
+	margin-bottom: 18px;
+}
+
+.price {
+	color: #F16D7F;
+	font-weight: 400;
+	font-size: 16px;
+	padding-left: 16px;
+	text-align: left;
+}
+
+.button {
+	border: 1px solid #FF6A6A;
+	width: 210px;
+	height: 45px;
+	color: #F26376;
+	align-items: center;
+	text-decoration: none;
+}
+
+.button:hover {
+	border: 1px solid #F16D7F;
+	background-color: #FF6A6A;
+	color: #fff;
+}
+
+.footer {
+	margin-top: 95px;
+	background: #222224;
+}
+
+.footer-top {
+	padding-left: 113px;
+	padding-bottom: 105px;
+	display: flex;
+}
+
+.footer-items {
+	margin-top: 105px;
+	width: 360px;
+	flex-direction: column;
+	align-items: center;
+	margin-right: 30px;
+}
+
+.footer-headline {
+	color: #FBFBFB;
+	font-weight: 400;
+	font-size: 20px;
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+
+.footer-paragraph {
+	color: #FBFBFB;;
+	font-weight: 300;
+	font-size: 15px;
+	display: block;
+	width: 330px;
+}
+
+.footer-center {
+	background-image: url(./images/footer-bg.svg);
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.lady-box {   
+	width: 360px;
+	padding-top: 85px;
+	margin-left: 230px;
+	padding-bottom: 125px;
+	flex-direction: column;
+	align-items: center;
+}
+
+q {
+	margin-top: 20px;
+	font-style: italic;
+	display: block;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.subscribe {
+	position: absolute;
+	top: 150px;
+	left: 810px;
+}
+
+.subscribe-text {
+	color: #222224;
+	text-align: center;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+.email {
+	height: 50px;
+	width: 230px;
+	background: #E1E1E1;
+	padding-left: 20px;
+	border: none;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+}
+
+form {
+	display: flex;
+	flex-direction: row;
+}
+
+.submit {
+	height: 50px;
+	width: 100px;
+	background: #F16D7F;
+	color: #fff;
+	border: none;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+
+.footer-bottom {
+	display: flex;
+	flex-direction: row;
+	background: #222224;
+	height: 80px;
+}
+
+.bottom-text {
+	font-weight: 400;
+	color: #FBFBFB;
+	width: 300px;
+	padding-top: 30px;
+	padding-left: 230px;
+}
+
+.links-box {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-left: 580px;
+}
+
+.links {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 7px;
+	background-color: #fff;
+}
+
+.links:hover {
+	background-color: #F16D7F;
+}
+
+.facebook, .instagram, .pinterest, .twitter {
+	width: 32px;
+	height: 32px;
+	color: black;
+}
+
+.facebook:hover, .instagram:hover, .pinterest:hover, .twitter:hover {
+	color: white;
+}
+
+
+
+
